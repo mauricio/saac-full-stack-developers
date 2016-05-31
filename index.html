@@ -1,0 +1,383 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Full Stack Developers, Unicorns, and Other Mythical Creatures</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+				<section
+					data-background="images/welcome-to-the-internet.jpg"
+					>
+					<h1 style="color: white;">Full Stack Developers, Unicorns, and Other Mythical Creatures</h1>
+					<p style="color: white;">
+						<small>
+							<a href="http://mauricio.github.io/">Maurício Linhares</a> /
+							<a href="http://twitter.com/mauriciojr">@mauriciojr</a> /
+							Technical Lead at Neat.com
+						</small>
+					</p>
+				</section>
+
+				<section>
+					<h1>Full Stack Developers, Unicorns, and Other Mythical Creatures</h1>
+					<p>
+						<small>
+							<a href="http://mauricio.github.io/">Maurício Linhares</a> /
+							<a href="http://twitter.com/mauriciojr">@mauriciojr</a> /
+							Technical Lead at Neat.com
+						</small>
+					</p>
+				</section>
+
+				<section>
+					<h1>Full stack developers...</h1>
+					<p>
+						... weren't special a couple years ago.
+					</p>
+				</section>
+
+				<section
+					data-background="images/stacking.jpg"
+				>
+					<h1 style="color: white;">We were all full stack</h1>
+				</section>
+
+				<section
+				>
+				<h1>Stacks</h1>
+				<p>
+					<ul style="display: block; float: left;">
+						<li>Linux</li>
+						<li>Apache</li>
+						<li>PHP, Python, Perl</li>
+						<li>JavaScript</li>
+						<li>MySQL</li>
+					</ul>
+					<ul style="display: block; float: right;">
+						<li>Linux</li>
+						<li>Nginx</li>
+						<li>Unicorn</li>
+						<li>Ruby</li>
+						<li>JavaScript</li>
+						<li>MySQL</li>
+					</ul>
+				</p>
+				</section>
+
+				<section
+				>
+					<h1>We did everything!</h1>
+					<p>
+						<img style="width: 70%" src="images/handyman.jpg"/>
+					</p>
+				</section>
+
+				<section
+				>
+					<h1>JavaScript was still a baby</h1>
+					<p>
+						<img style="width: 40%" src="images/javascript-charmander.jpg"/>
+					</p>
+				</section>
+
+				<section
+					data-background="images/mongodb.jpg"
+				>
+					<h1 style="color: white;">And MongoDB didn't exist</h1>
+				</section>
+
+				<section
+					data-background="images/rocking-lizard.gif"
+				>
+					<h1 style="color: white;">Life was much easier...</h1>
+				</section>
+
+				<section>
+					<h1>Was it, really?</h1>
+				</section>
+
+				<section>
+					<h1>Ok, some knowledge was transferable</h1>
+					<p>
+						SQL, database modelling, Linux management.
+					</p>
+				</section>
+
+				<section>
+					<h1>But from PHP to Ruby...</h1>
+					<p>
+						... there isn't much you can transfer.
+					</p>
+				</section>
+
+				<section>
+					<h1>What did really change?</h1>
+				</section>
+
+				<section>
+					<h1>JavaScript is not (only) jQuery anymore</h1>
+					<p>Wait, the name wasn't jQuery??????</p>
+				</section>
+
+				<section>
+					<h1>Relational databases are not the (only) default</h1>
+					<p>But documentation and standarization for the new databases suck,
+					so we undestand your complaints a bit.</p>
+				</section>
+
+				<section>
+					<h1>You can't just FTP your website anymore</h1>
+					<p>You don't really miss this, do you? Please say you don't.</p>
+				</section>
+
+				<section>
+					<h1>You didn't realy know everything back then</h1>
+					<p>And you still don't have to know it all now.</p>
+				</section>
+
+				<section
+					data-background="images/pikazard.jpeg"
+				>
+					<p style="color: white; background-color: black;">Unless you're looking for a job, then you have to be Pikazard</p>
+				</section>
+
+				<section>
+					<h1>Putting recruiting aside</h1>
+					<p>What does it usualy mean to be a full stack developer now?</p>
+				</section>
+
+				<section>
+					<h1>Generalist + Specialist</h1>
+					<p>Full stack developers are both specialists and generalists</p>
+				</section>
+
+				<section>
+					<h1>Really love building your #golang backend?</h1>
+					<p>Awesome, but be ready to jump into the React front end as well!</p>
+				</section>
+
+				<section>
+					<h1>Why?</h1>
+				</section>
+
+				<section>
+					<h1>Because it provides perspective</h1>
+					<p>
+						How do I know if the awesome API I've built is really awesome? Using it.
+					</p>
+				</section>
+
+				<section>
+					<h1>And causes pain</h1>
+					<p>
+						How do I know if my app is scalable? Signing up for the on-call schedule.
+					</p>
+				</section>
+
+				<section>
+					<h1>What are the pieces involved here?</h1>
+					<p>
+						<ul>
+							<li>Backend systems</li>
+							<li>Frontend systems</li>
+							<li>Infrastructure provisioning and troubleshooting</li>
+							<li>Optimization and scaling</li>
+							<li>UX design</li>
+						</ul>
+					</p>
+				</section>
+
+				<section
+					data-background="images/angry-face.jpg"
+				>
+					<p style="color: white; background-color: black;">Learn all this?</p>
+				</section>
+
+				<section
+					data-background="images/relief.gif"
+				>
+					<p style="color: white; background-color: black;">Nope. But at least try.</p>
+				</section>
+
+				<section>
+					<h1>Being great at everything is hard</h1>
+					<p>
+						It's not that you shouldn't try, you just don't have to beat yourself and
+						burnout while trying.
+					</p>
+				</section>
+
+				<section>
+					<h1>Deliberate practice is your friend</h1>
+					<p>
+						Forget about the 10k hours, 10k hours of lifting the same weight will never make you strong. If it doesn't hurt it's not worth it.
+					</p>
+				</section>
+
+				<section>
+					<h1>Switch</h1>
+					<p>
+						Teams, technology stacks, application, position, company, anything you can. 10 years of experience inside the same Rails app isn't really 10 years of experience, sorry.
+					</p>
+				</section>
+
+				<section>
+					<h1>The more you learn, the more you transfer</h1>
+					<p>
+						Know Scala? Getting into OCaml, Haskell or Rust is now easier.
+					</p>
+				</section>
+
+				<section>
+					<h1>Don't panic!</h1>
+					<p>
+						It takes time, you're not going to get experience with all this
+						in a week.
+					</p>
+				</section>
+
+				<section
+					data-background="images/the-bridge.jpg"
+				>
+					<h1 style="color: white; background-color: black;">Be the bridge</h1>
+				</section>
+
+				<section>
+					<h1>Connecting teams and building empathy</h1>
+					<p>
+						Being the glue that holds teams together is also the job of the
+						full stack developer.
+					</p>
+				</section>
+
+				<section>
+					<h1>Layers and layers</h1>
+					<p>
+						Working through the different layers of the apps being built provides
+						a better idea of what is being done and how the teams are accomplishing
+						their goals.
+					</p>
+				</section>
+
+				<section>
+					<h1>It's just progress</h1>
+					<p>
+						If your job is to build applications, going full stack is the natural path
+						for your career, no need to be afraid about it.
+					</p>
+				</section>
+
+				<section>
+					<h1>How did it happen for me?</h1>
+					<p>
+						Joined Neat.com 3 years ago, backend developer.
+					</p>
+				</section>
+
+				<section>
+					<h1>We needed more OPS</h1>
+					<p>
+						It wasn't much of a choice, really, either we joined the OPS team or our apps
+						would take a long time to see the light of day.
+					</p>
+				</section>
+
+				<section>
+					<h1>No Chef experience</h1>
+					<p>
+						But it's Ruby, how hard could that be, right? 💀
+					</p>
+				</section>
+
+				<section
+					data-background="images/crying.gif"
+				>
+				</section>
+
+				<section>
+					<h1>OPS team provided guidance and feedback</h1>
+					<p>
+						Having people directing you towards the goal is a huge win
+						when switching paths (huge kudos to Travis Truman and Richard Henning)
+					</p>
+				</section>
+
+				<section>
+					<h1>App rewrite, moving from ASP.NET to Rails</h1>
+					<p>
+						App needed a fast and responsive UI, perfect for a single page app. Jumped into
+						the backend and the ReactJS frontend to get the job done (Leo Rodrigues
+						was the guide here).
+					</p>
+				</section>
+
+				<section>
+					<h1>Am I a full stack developer?</h1>
+				</section>
+
+				<section
+					data-background="images/no-idea.gif"
+				>
+				</section>
+
+				<section>
+					<h1>But that doesn't prevent me from doing it</h1>
+					<p>
+						Continuous learning should be your main takeaway here, it is the only
+						way to make progress and evolve as a developer, no matter what your
+						favorite tech is.
+					</p>
+				</section>
+
+				<section>
+					<h1>Questions?</h1>
+				</section>
+
+				<section>
+					<h1>Thanks!</h1>
+					<p>
+						<a href="http://mauricio.github.io/">Maurício Linhares</a> /
+						<a href="http://twitter.com/mauriciojr">@mauriciojr</a>
+					</p>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
